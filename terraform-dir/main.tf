@@ -1,6 +1,6 @@
 provider "google" {
     version = "3.39.0"
-    credentials = file("credentials.json")
+    credentials = file("../credentials.json")
     project = "test-db-289713"
     region = "europe-west3"
     zone = "europe-west3-b"
